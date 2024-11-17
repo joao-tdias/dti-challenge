@@ -1,6 +1,6 @@
 import pandas as pd
 from loguru import logger
-from constants.constants import LOGS_PATH, LOGS_LEVEL
+from app.constants.constants import LOGS_PATH, LOGS_LEVEL
 
 logger.add(LOGS_PATH,
            level=LOGS_LEVEL,
