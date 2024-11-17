@@ -10,7 +10,7 @@ from app.src.train_functions import train_and_evaluate_model, train_final_model
 from app.src.prediction import predict_new_data
 from app.constants.constants import LOGS_PATH, LOGS_LEVEL, LOGS_LEVEL_TERMINAL
 
-FILES = os.path.join(os.path.join(sys.path[-1], 'app'),'data')
+FILES = os.path.join(sys.path[-1], 'data')
 
 logger.remove()
 logger.add(sys.stderr, level=LOGS_LEVEL_TERMINAL)

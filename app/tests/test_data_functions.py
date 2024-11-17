@@ -4,7 +4,7 @@ import os
 import sys
 
 sys.path.append(os.path.dirname(os.path.dirname(__file__)))
-from app.src.data_functions import load_data
+from src.data_functions import load_data
 
 TEST_FILES = os.path.join(os.path.dirname(__file__), 'temp_files')
 

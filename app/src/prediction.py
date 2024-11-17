@@ -1,6 +1,10 @@
 import pandas as pd
 from loguru import logger
-from app.constants.constants import LOGS_PATH, LOGS_LEVEL
+import sys
+import os
+
+sys.path.append(os.path.dirname(os.path.dirname(__file__)))
+from constants.constants import LOGS_PATH, LOGS_LEVEL
 
 logger.add(LOGS_PATH,
            level=LOGS_LEVEL,
