@@ -8,7 +8,7 @@ import sys
 
 sys.path.append(os.path.dirname(os.path.dirname(__file__)))
 
-from src.train_functions import train_and_evaluate_model, train_final_model
+from app.src.train_functions import train_and_evaluate_model, train_final_model
 
 @pytest.fixture
 def sample_data():

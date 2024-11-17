@@ -7,7 +7,7 @@ import sys
 
 sys.path.append(os.path.dirname(os.path.dirname(__file__)))
 
-from src.prediction import predict_new_data
+from app.src.prediction import predict_new_data
 
 @pytest.fixture
 def scaler():
