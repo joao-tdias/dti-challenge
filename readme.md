@@ -58,7 +58,7 @@ Inicializando a Aplicação:
 
 - Para inicializar a aplicação, use o seguinte comando:
 
-  python main.py
+  python flask_app.py
 
 ## Logs
 
